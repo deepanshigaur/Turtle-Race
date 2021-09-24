@@ -18,30 +18,33 @@ michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
 ## 5. your code goes here
-def race():
-  distance = random.randrange(1,100)
-  leonardo.forward(distance)
-  michelangelo.forward(distance)
+
+
+leonardo.forward(random.randrange(0,100))
+michelangelo.forward(random.randrange(0,100))
   
-race() 
+
 michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 
-from time import sleep
-window.tracer(0)
 
-while True:
-    sleep(0.1)
+for i in range (0,10):
+   
     michelangelo.forward(random.randrange(0,10))
     leonardo.forward(random.randrange(0, 10))
-    window.update()
+    
 
-race()
 
 michelangelo.goto(-100,20)
-leonardo.goto(-100,-20)
+
 
 # Part B - complete part B here
-
+michelangelo.down()
+for i in list ([3,4,6,9,12]):
+	michelangelo.clear()
+	for k in  range(i):
+		michelangelo.forward(80)
+		michelangelo.right(360/i)
+	
 
 window.exitonclick()
