@@ -8,12 +8,12 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+ < made turtles race and made different shapes using for loop. >
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: < 0 >
 
-Grace days remaining: < # >/5
+Grace days remaining: < 5 >/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
  < What parts of the project you were not able to complete >
